@@ -27,8 +27,7 @@ Second_Frame = tk.Frame(canvas)
 # Add that new frame to a window in the canvas
 canvas.create_window((0,0), window=Second_Frame, anchor="nw")
 
-w = tk.Label(Second_Frame, text ='BugBounty Check List', font = "50") 
-w.grid(column=2, row=0)
+root.title("BugCheck")
 
 # Column Names
 
